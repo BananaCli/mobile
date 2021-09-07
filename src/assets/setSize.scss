@@ -1,0 +1,7 @@
+// 定义全局变量
+// $red:red;
+
+@function px2html($px){
+    $rem: 37.5px;
+    @return ($px / $rem) + rem;
+}
